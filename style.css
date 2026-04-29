@@ -144,3 +144,32 @@ nav {
     object-fit: cover;
     border-radius: 4px;
 }
+
+.box-chisiamo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    line-height: 1.6;
+    font-size: x-large;
+}
+
+.box-chisiamo h1 {
+    margin-bottom: 1.5rem;
+}
+
+.grassetto {
+    font-weight: bold;
+}
+
+.box-dovesiamo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.box-dovesiamo h1 {
+    margin-bottom: 1.5rem;
+}
