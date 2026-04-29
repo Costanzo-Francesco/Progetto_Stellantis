@@ -149,9 +149,11 @@ nav {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
-    text-align: center;
+    text-align: justify;
     line-height: 1.6;
     font-size: x-large;
+    word-spacing: 1px;
+    line-height: 35px;
 }
 
 .box-chisiamo h1 {
@@ -172,4 +174,54 @@ nav {
 
 .box-dovesiamo h1 {
     margin-bottom: 1.5rem;
+}
+
+.notizieNews {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+    padding: 2rem 5%;
+}
+
+.notizia {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    border: 3px solid red;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: none;
+}
+
+/* Testo nascosto */
+.nascosto {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* Mostra al hover */
+.notizia:hover .nascosto {
+    opacity: 1;
+    max-height: 200px; /* puoi regolarlo */
+}
+
+/* (opzionale) espandi il box */
+.notizia:hover {
+    height: 40vh;
+}
+
+.notizia img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+div.box-chisiamo > p{
+    margin-top: 50px;
 }
