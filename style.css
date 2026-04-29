@@ -110,3 +110,28 @@ nav {
 .title-red {
     color: red;
 }
+
+.primo-piano {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem 5%;
+}
+
+.news, .podcast, .programmi {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    border: 3px solid red;
+    width: 33%;
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.news img, .podcast img, .programmi img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
