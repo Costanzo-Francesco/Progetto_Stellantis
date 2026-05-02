@@ -230,28 +230,50 @@ div.box-chisiamo > p{
     margin: 2rem 2%;
 }
 
-.podcastSfoglia {
+/*Podcast*/
+#podcastSfoglia {
     display: flex;
     flex-direction: row;
     gap: 20px;
     margin: 2rem 2%;
-    height: ;
-    overflow-x: auto;     
+    height: calc(100vh - 210px); 
+    overflow-x: auto;
     overflow-y: hidden; 
     scroll-snap-type: x mandatory;
 }
 
-.podcastSfoglia img{
+#podcastSfoglia img{
     width: 50%;
+    border-radius: 8px;
 }
 .podcastSezioni {
-    flex: 0 0 300px; 
+    flex: 0 0 500px; 
     display: flex;
     flex-direction: column;
-    gap: 15px;
-
+    gap:2rem 2%;
     border: 3px solid red;
     padding: 15px;
     border-radius: 8px;
     box-sizing: border-box;
+    background-color: rgba(255, 0, 0, 0.2);
 }
+
+/*On Air*/
+
+#OnairPrincipale{ 
+    display: flex;
+    flex-direction: column;
+    gap:2rem 2%;
+    border: 3px solid red;
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: rgba(255, 0, 0, 0.2);
+    height: calc(100vh - 210px);
+    flex-direction: row;         
+    align-items: center;         
+    gap: 2rem;
+    flex: 1;
+    
+}
+
